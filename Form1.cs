@@ -16,5 +16,16 @@ namespace GestionPersonnel
         {
             InitializeComponent();
         }
+
+        private void text1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "text1";
+        }
+
+        private void text2_Click(object sender, EventArgs e)
+        {
+            label1.Text = "text2";
+
+        }
     }
 }
